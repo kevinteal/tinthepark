@@ -434,7 +434,7 @@ function set_up_main_page(){
 								}else{
 								
 									set_up_lineup_page();
-									$("#not_time").html("Once This Festival Starts Bands Will Appear Here. Make Sure App is Up To Date Before Going To Festival. <br/><br/>");
+									$("#not_time").html("Once This Festival Starts Bands Will Appear Here. Make Sure App is Up To Date Before Going To Festival.<br/><br/>");
 								}
 								
 						});
