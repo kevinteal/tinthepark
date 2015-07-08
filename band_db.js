@@ -224,6 +224,19 @@ tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_
 		
 tx.executeSql('DELETE FROM bands WHERE id=95');
 		
+		
+	});
+	db.transaction(function(tx){
+		tx.executeSql('UPDATE bands SET band_name="Tongues" WHERE id=108');
+		tx.executeSql('UPDATE bands SET band_name="Lucy Rose" WHERE id=49');
+		
+			tx.executeSql('UPDATE bands SET start_time=1330, finish_time=1500 WHERE id=154');
+			tx.executeSql('UPDATE bands SET start_time=1500, finish_time=1700 WHERE id=153');
+			tx.executeSql('UPDATE bands SET start_time=1700, finish_time=1830 WHERE id=152');
+			tx.executeSql('UPDATE bands SET start_time=1830, finish_time=2000 WHERE id=151');
+			tx.executeSql('UPDATE bands SET start_time=2000, finish_time=2200 WHERE id=150');
+			tx.executeSql('UPDATE bands SET start_time=2200, finish_time=0000 WHERE id=149');
+
 		set_up_main_page();
 	});
 }
