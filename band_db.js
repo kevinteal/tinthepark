@@ -236,7 +236,73 @@ tx.executeSql('DELETE FROM bands WHERE id=95');
 			tx.executeSql('UPDATE bands SET start_time=1830, finish_time=2000 WHERE id=151');
 			tx.executeSql('UPDATE bands SET start_time=2000, finish_time=2200 WHERE id=150');
 			tx.executeSql('UPDATE bands SET start_time=2200, finish_time=0000 WHERE id=149');
-
+			
+			
+			//Friday
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (158, "Eats Everything & Jasper James", "Tennents Arms", 20150710, 2130, 2315, 0, 6, "Friday")');
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (159, "Dixon Avenue Basement Jams", "Tennents Arms", 20150710, 2000, 2130, 0, 6, "Friday")');
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (160, "Denis Sulta", "Tennents Arms", 20150710, 1830, 2000, 0, 6, "Friday")');
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (161, "Mia Dora", "Tennents Arms", 20150710, 1700, 1830, 0, 6, "Friday")');
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (162, "Junior G", "Tennents Arms", 20150710, 1530, 1700, 0, 6, "Friday")');
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (163, "Gary Hunter", "Tennents Arms", 20150710, 1400, 1530, 0, 6, "Friday")');
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (164, "Night Of The Jaguar", "Tennents Arms", 20150710, 1200, 1400, 0, 6, "Friday")');
+//Saturday
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (165, "Sensu", "Tennents Arms", 20150711, 2100, 2315, 0, 6, "Saturday")');
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (166, "Bigfoots Tea Party", "Tennents Arms", 20150711, 1930, 2100, 0, 6, "Saturday")');
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (167, "Sub Rosa", "Tennents Arms", 20150711, 1800, 1930, 0, 6, "Saturday")');
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (168, "Theo Kottis & Izzy Demzky", "Tennents Arms", 20150711, 1630, 1800, 0, 6, "Saturday")');
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (169, "Groovement Perth", "Tennents Arms", 20150711, 1500, 1630, 0, 6, "Saturday")');
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (170, "Tricky", "Tennents Arms", 20150711, 1330, 1500, 0, 6, "Saturday")');
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (171, "Vicious Creatures", "Tennents Arms", 20150711, 1200, 1330, 0, 6, "Saturday")');
+//Sunday
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (172, "Harri & Domenic", "Tennents Arms", 20150712, 2100, 2315, 0, 6, "Sunday")');
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (173, "Telford", "Tennents Arms", 20150712, 1930, 2100, 0, 6, "Sunday")');
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (174, "Hammer & Jube", "Tennents Arms", 20150712, 1800, 1930, 0, 6, "Sunday")');
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (175, "Andrew Pirie & Simon Cordiner", "Tennents Arms", 20150712, 1630, 1800, 0, 6, "Sunday")');
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (176, "Ooft! Music", "Tennents Arms", 20150712, 1500, 1630, 0, 6, "Sunday")');
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (177, "David Barbarossa", "Tennents Arms", 20150712, 1330, 1500, 0, 6, "Sunday")');
+tx.executeSql('INSERT INTO bands (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (178, "Joshua Stay Fresh", "Tennents Arms", 20150712, 1200, 1330, 0, 6, "Sunday")');
+			
+			
+	});
+	
+	db.transaction(function(tx){
+		
+		//	tx.executeSql('UPDATE bands SET start_time=2200, finish_time=0000 WHERE id=149');
+		tx.executeSql('UPDATE bands SET start_time=2215 WHERE id=8');
+		tx.executeSql('UPDATE bands SET start_time=2035, finish_time=2135 WHERE id=7');
+		tx.executeSql('UPDATE bands SET start_time=1910, finish_time=2005 WHERE id=6');
+		tx.executeSql('UPDATE bands SET start_time=1750, finish_time=1840 WHERE id=5');
+		tx.executeSql('UPDATE bands SET start_time=1635, finish_time=1720 WHERE id=4');
+		tx.executeSql('UPDATE bands SET start_time=1525, finish_time=1605 WHERE id=3');
+		tx.executeSql('UPDATE bands SET start_time=1425 WHERE id=2');
+		
+		
+		tx.executeSql('UPDATE bands SET start_time=2235 WHERE id=31');
+		tx.executeSql('UPDATE bands SET start_time=2045, finish_time=2145 WHERE id=30');
+		
+		tx.executeSql('UPDATE bands SET start_time=1925, finish_time=2015 WHERE id=29');
+			tx.executeSql('UPDATE bands SET start_time=1805, finish_time=1855 WHERE id=28');
+			tx.executeSql('UPDATE bands SET start_time=1650, finish_time=1735 WHERE id=27');
+			tx.executeSql('UPDATE bands SET start_time=1540, finish_time=1620 WHERE id=26');
+			tx.executeSql('UPDATE bands SET start_time=1435, finish_time=1510 WHERE id=25');
+			
+			tx.executeSql('UPDATE bands SET start_time=1640, finish_time=1725 WHERE id=52');
+			tx.executeSql('UPDATE bands SET start_time=1755, finish_time=1845 WHERE id=53');
+			
+			
+			tx.executeSql('UPDATE bands SET start_time=2245, finish_time=2315 WHERE id=138');
+			tx.executeSql('UPDATE bands SET start_time=2150, finish_time=2220 WHERE id=137');
+			tx.executeSql('UPDATE bands SET start_time=2055, finish_time=2125 WHERE id=136');
+			tx.executeSql('UPDATE bands SET start_time=1955, finish_time=2030 WHERE id=135');
+			tx.executeSql('UPDATE bands SET start_time=1855, finish_time=1930 WHERE id=134');
+			tx.executeSql('UPDATE bands SET start_time=1755, finish_time=1830 WHERE id=133');
+			tx.executeSql('UPDATE bands SET start_time=1655, finish_time=1730 WHERE id=132');
+			tx.executeSql('UPDATE bands SET start_time=1555, finish_time=1630 WHERE id=131');
+			tx.executeSql('UPDATE bands SET start_time=1455, finish_time=1530 WHERE id=130');
+			tx.executeSql('UPDATE bands SET start_time=1305, finish_time=1335 WHERE id=128');
+			tx.executeSql('UPDATE bands SET start_time=1210, finish_time=1240 WHERE id=127');
+			
 		set_up_main_page();
 	});
 }
